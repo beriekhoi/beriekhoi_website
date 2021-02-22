@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+	margin: 5px;;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding:0;
+}
+body{
+    background-image: url(https://inspirationfeed.com/wp-content/uploads/2016/08/mobile_wallpaper_by_maria_shanina-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    font-family: Oswald;
+    text-align: center;
+}
+div{
+    background-color: rgba(204, 204, 204, 0.5);
+    padding: 10px 20px; 
+    margin: 0px 50px;
+}
+p,h2{
+    font-family: "Roboto Condensed";
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    background-color: black;
+    color: white;
+    padding:5px 10px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #CBFF00;
+    border-radius: 10px;
+}
+footer{
+    position:static;
+    padding:25px 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 10px solid black;
+    font-family: "Roboto Condensed";
+    background-size: cover;
+}
+button{
+    margin: auto 45%;
+    padding: 5px 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
