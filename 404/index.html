@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not found</title>
+</head>
+<body>
+    <h1>Not found</h1>
+    <br><br><br><br><br><br><br><br><br><br>
+    <button id="btn">Go to main page</button>
+    <script>
+        let toMainPage = document.getElementById("btn")
+        function redirectToMain(){
+            open("https://beriekhoi.netlify.app/", "_self")
+        }
+        toMainPage.addEventListener("click", redirectToMain)
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+        body{
+            background-image: url(https://inspirationfeed.com/wp-content/uploads/2016/08/mobile_wallpaper_by_maria_shanina-min.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        h1{
+            font-family: Oswald;
+            text-align: center;
+        }
+        a:hover{
+            background-color: white;
+            color: black;
+        }
+        ::-webkit-scrollbar {
+            width: 20px;
+        }
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 30px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #CBFF00;
+            border-radius: 10px;
+        }
+        button{
+            margin: auto 45%;
+            padding: 5px 10px;
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: white;
+            border: 1px solid black;
+            color: black;
+        }
+    </style>
+</body>
+</html>
